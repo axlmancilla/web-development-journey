@@ -1,0 +1,177 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hero-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-container,
+.footer {
+    background-color: #1F2937;
+
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header,
+.hero {
+    width: 1000px;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.hero {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-action {
+    width: 550px;
+}
+
+.call-action .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+
+}
+
+button {
+    display: inline-block;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button,
+.call-action-container {
+    background-color: #3882F6;
+}
+
+.hero img {
+    width: 350px;
+}
+
+
+.info-container {
+    height: 400px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info .title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cards-container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+}
+
+.card img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+
+.quote-section {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #6b6b6b;
+}
+
+.autor {
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+
+.call-action-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-action-container {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.call-action-container .info {
+    text-align: start;
+}
+
+.call-action-container .info .title {
+    font-size: 20px;
+}
+
+.call-action-container button {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+
+.footer {
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
